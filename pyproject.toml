@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "langchain-study"
+version = "0.1.0"
+description = ""
+authors = ["to.watanabe <to.watanabe@raksul.com>"]
+readme = "README.md"
+packages = [{include = "langchain_study"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+langchain = "^0.0.181"
+openai = "^0.27.7"
+python-dotenv = "^1.0.0"
+tiktoken = "^0.4.0"
+pypdf = "^3.9.0"
+chromadb = "^0.3.25"
+duckduckgo-search = "^3.7.0"
+wikipedia = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
